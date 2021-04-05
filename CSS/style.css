@@ -27,6 +27,26 @@
 }
 
 /* Header */
+.nav-top {
+  position: relative;
+  background-color: #f72210;
+  height: 95px;
+  width: 100%;
+}
+
+.nav-date {
+
+}
+
+.nav-logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,0);
+  padding: 10px 0;
+  width: 396px;
+  height: 60px;
+}
 
 #search-icon {
   background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;

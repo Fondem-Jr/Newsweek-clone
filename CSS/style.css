@@ -16,6 +16,14 @@ input {
   list-style: none;
 }
 
+.form-inline {
+  width: 60px;
+}
+
+.form-control {
+  border: 0ch;
+}
+
 .normal-list a:hover {
   color: red;
 }
@@ -76,4 +84,9 @@ input {
   background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
   width: 20px;
   height: 20px;
+}
+
+.search-icon {
+  padding-top: 0.35em;
+  padding-left: 0.5em;
 }

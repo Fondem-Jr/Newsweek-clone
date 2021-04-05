@@ -1,6 +1,6 @@
 /* General Classes */
-.uppercase {
-  text-transform: uppercase;
+input {
+  display: inline;
 }
 
 .titlecase {
@@ -38,8 +38,14 @@
   width: 100%;
 }
 
-.nav-date {
+.head-nav-mid {
+  font-size: 19px;
+  line-height: 24px;
+}
 
+.nav-date {
+  font: 16px/34px "Roboto Condensed",sans-serif;
+  color: white;
 }
 
 .nav-logo {
@@ -50,7 +56,21 @@
   padding: 10px 0;
   width: 396px;
   height: 60px;
+  fill: white;
 }
+
+.nav-top-content {
+  padding: 35px 15px 0 15px;
+}
+
+.nav-buttons {
+  font-size: 18px;
+  line-height: 30px;
+  padding-left: 15px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
 
 #search-icon {
   background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;

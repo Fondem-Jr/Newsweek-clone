@@ -16,6 +16,10 @@
   list-style: none;
 }
 
+.normal-list a:hover {
+  color: red;
+}
+
 .borderlist {
   border-right: 1px solid #d9d9d9;
   padding-right: 10px;

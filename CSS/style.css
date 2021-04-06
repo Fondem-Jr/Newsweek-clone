@@ -10,7 +10,7 @@ html {
 /* General Classes */
 header {
   margin-bottom: 500px;
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .ps-20 {
@@ -47,7 +47,7 @@ input {
 }
 
 .form-control {
-  border: 0ch;
+  border: 0;
 }
 
 .normal-list a:hover {
@@ -70,7 +70,7 @@ input {
 }
 
 .nav-date {
-  font: 16px/34px "Roboto Condensed",sans-serif;
+  font: 16px/34px "Roboto Condensed", sans-serif;
   color: white;
   padding-left: 30px;
 }
@@ -114,7 +114,7 @@ input {
 }
 
 .nav-header-mid {
-  font: 19px/19px "Roboto Condensed",sans-serif;
+  font: 19px/19px "Roboto Condensed", sans-serif;
   padding: 20px 0;
   border-bottom: 2px #f4f5f7 solid;
 }
@@ -128,7 +128,6 @@ input {
   width: 20px;
   height: 20px;
   display: inline;
-  border: solide red;
   padding-top: 0.7em;
   padding-left: 0.5em;
 }
@@ -147,7 +146,7 @@ input {
   font-size: 30px;
 }
 
-/* footer*/
+/* footer */
 .footer-logo {
   fill: #f72210;
 }
@@ -163,7 +162,7 @@ input {
 }
 
 .footer-icon:hover {
-  color: #4267B2;
+  color: #4267b2;
 }
 
 .footer-icon-hover1:hover {
@@ -173,11 +172,13 @@ input {
 .footer-icon-hover2:hover {
   color: #8a3ab9;
 }
+
 .footer-link {
   font-size: 0.8em;
   padding-right: 0.5rem;
   border-right: 1px solid #d9d9d9;
 }
+
 .footer-link:hover {
   color: black;
 }

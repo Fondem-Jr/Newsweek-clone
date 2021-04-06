@@ -1,10 +1,24 @@
 /* ------------General styles--------- */
-
 html {
   box-sizing: border-box;
 }
 
+header {
+  margin-bottom: 500px;
+}
+
 /* General Classes */
+.ps-20 {
+  padding: 0 20px;
+}
+
+.pl-30 {
+  padding-left: 30px;
+}
+
+.py-15 {
+  padding: 15px 0;
+}
 
 input {
   display: inline;
@@ -46,32 +60,57 @@ input {
 }
 
 /* Header */
-.nav-top {
-  position: relative;
+.nav-header-top {
   background-color: #f72210;
-  height: 95px;
-  width: 100%;
-}
-
-.head-nav-mid {
-  font-size: 19px;
-  line-height: 24px;
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
 
 .nav-date {
   font: 16px/34px "Roboto Condensed",sans-serif;
   color: white;
+  padding-left: 30px;
 }
 
-.nav-logo {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%,0);
-  padding: 10px 0;
+.big-logo {
   width: 396px;
   height: 60px;
   fill: white;
+}
+
+.nav-buttons {
+  font-size: 18px;
+  line-height: 30px;
+  padding-right: 30px;
+}
+
+.nav-header-mid {
+  font-size: 16px;
+  line-height: 16px;
+  padding: 20px 0;
+  border-bottom: 2px #f4f5f7 solid;
+}
+
+#search-icon {
+  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
+  width: 20px;
+  height: 20px;
+}
+
+.search-icon {
+  display: none;
+  padding-top: 0.35em;
+  padding-left: 0.5em;
+}
+
+.nav-header-bottom {
+  font-size: 16px;
+  border-bottom: 2px #f4f5f7 solid;
+  color: #807f84;
+}
+
+#nav-header-bottom-brand {
+  color: black;
 }
 
 /* footer*/
@@ -87,7 +126,7 @@ input {
   font-size: 24px;
   text-decoration: none;
   color: #666;
-} 
+}
 
 .footer-icon:hover {
   color: #4267B2;
@@ -107,28 +146,4 @@ input {
 }
 .footer-link:hover {
   color: black;
-}
-
-.nav-top-content {
-  padding: 35px 15px 0 15px;
-}
-
-.nav-buttons {
-  font-size: 18px;
-  line-height: 30px;
-  padding-left: 15px;
-  margin-top: 4px;
-  margin-bottom: 4px;
-}
-
-
-#search-icon {
-  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
-  width: 20px;
-  height: 20px;
-}
-
-.search-icon {
-  padding-top: 0.35em;
-  padding-left: 0.5em;
 }

@@ -1,3 +1,6 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 /* ------------General styles--------- */
 html {
   box-sizing: border-box;
@@ -9,7 +12,7 @@ header {
 
 /* General Classes */
 .ps-20 {
-  padding: 0 20px;
+  padding: 0 1.3vw;
 }
 
 .pl-30 {
@@ -85,8 +88,7 @@ input {
 }
 
 .nav-header-mid {
-  font-size: 16px;
-  line-height: 16px;
+  font: 19px/19px "Roboto Condensed",sans-serif;
   padding: 20px 0;
   border-bottom: 2px #f4f5f7 solid;
 }

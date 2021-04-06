@@ -1,4 +1,15 @@
+/* ------------General styles--------- */
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f5f6;
+}
+
 /* General Classes */
+
 input {
   display: inline;
 }
@@ -69,6 +80,28 @@ input {
 
 .footer-logo {
   fill: #f72210;
+}
+
+.small-font {
+  font-size: 12px;
+}
+
+.footer-icon {
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+} 
+
+.footer-icon:hover {
+  color: #4267B2;
+}
+
+.footer-icon-hover1:hover {
+  color: #00acee;
+}
+
+.footer-icon-hover2:hover {
+  color: #8a3ab9;
 }
 
 .nav-top-content {

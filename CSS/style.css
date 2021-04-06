@@ -1,16 +1,18 @@
 /* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 
 /* ------------General styles--------- */
 html {
   box-sizing: border-box;
 }
 
+/* General Classes */
 header {
   margin-bottom: 500px;
+  font-family: "Roboto Condensed",sans-serif;
 }
 
-/* General Classes */
 .ps-20 {
   padding: 0 1.3vw;
 }
@@ -65,8 +67,6 @@ input {
 /* Header */
 .nav-header-top {
   background-color: #f72210;
-  padding-top: 20px;
-  padding-bottom: 15px;
 }
 
 .nav-date {
@@ -75,16 +75,42 @@ input {
   padding-left: 30px;
 }
 
-.big-logo {
-  width: 396px;
-  height: 60px;
+.nav-header-logo {
+  padding: 15px 15px;
+  width: 132px;
+  height: 50px;
   fill: white;
 }
 
 .nav-buttons {
-  font-size: 18px;
-  line-height: 30px;
-  padding-right: 30px;
+  font-size: 15px;
+  line-height: 20px;
+  padding-right: 15px;
+}
+
+#subscribe-button {
+  background-color: #ffe400;
+  padding: 0;
+}
+
+@media only screen and (min-width: 992px) {
+  .nav-header-top {
+    background-color: #f72210;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  .nav-header-logo {
+    width: 396px;
+    height: 60px;
+    fill: white;
+  }
+
+  .nav-buttons {
+    font-size: 18px;
+    line-height: 30px;
+    padding-right: 30px;
+  }
 }
 
 .nav-header-mid {
@@ -115,6 +141,10 @@ input {
 
 #nav-header-bottom-brand {
   color: black;
+}
+
+.bi-list {
+  font-size: 30px;
 }
 
 /* footer*/

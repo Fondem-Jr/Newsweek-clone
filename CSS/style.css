@@ -4,10 +4,6 @@ html {
   box-sizing: border-box;
 }
 
-body {
-  background-color: #f4f5f6;
-}
-
 /* General Classes */
 
 input {
@@ -78,6 +74,7 @@ input {
   fill: white;
 }
 
+/* footer*/
 .footer-logo {
   fill: #f72210;
 }
@@ -89,7 +86,7 @@ input {
 .footer-icon {
   font-size: 24px;
   text-decoration: none;
-  color: black;
+  color: #666;
 } 
 
 .footer-icon:hover {
@@ -102,6 +99,14 @@ input {
 
 .footer-icon-hover2:hover {
   color: #8a3ab9;
+}
+.footer-link {
+  font-size: 0.8em;
+  padding-right: 0.5rem;
+  border-right: 1px solid #d9d9d9;
+}
+.footer-link:hover {
+  color: black;
 }
 
 .nav-top-content {

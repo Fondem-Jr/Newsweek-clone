@@ -67,6 +67,10 @@ input {
   fill: white;
 }
 
+.footer-logo {
+  fill: #f72210;
+}
+
 .nav-top-content {
   padding: 35px 15px 0 15px;
 }

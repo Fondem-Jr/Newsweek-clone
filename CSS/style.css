@@ -93,15 +93,17 @@ input {
   border-bottom: 2px #f4f5f7 solid;
 }
 
-#search-icon {
-  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
-  width: 20px;
-  height: 20px;
+.search-button {
+  margin-left: -10px;
 }
 
 .search-icon {
-  display: none;
-  padding-top: 0.35em;
+  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
+  width: 20px;
+  height: 20px;
+  display: inline;
+  border: solide red;
+  padding-top: 0.7em;
   padding-left: 0.5em;
 }
 

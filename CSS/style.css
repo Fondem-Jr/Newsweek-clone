@@ -9,7 +9,11 @@ html {
 
 /* General Classes */
 header {
-  margin-bottom: 300px;
+  margin-bottom: 25px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.page-fonts {
   font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -27,10 +31,6 @@ header {
 
 input {
   display: inline;
-}
-
-.titlecase {
-  text-transform: capitalize;
 }
 
 .normal-link {
@@ -62,6 +62,11 @@ input {
 
 .borderlist-last {
   border: none;
+}
+
+.bottom-left-caption {
+  background-color: rgba(255,255,255,.9);
+  padding: 8px 15px 9px 15px;
 }
 
 /* Header */

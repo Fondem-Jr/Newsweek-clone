@@ -233,9 +233,21 @@ p {
   border-color: #d9d9d9;
 }
 
+.opinion-margin {
+  border-bottom: 1px solid #d9d9d9;
+}
+
 .versus-sign {
   height: 32px;
   width: 32px;
+}
+
+.sign-up-notice {
+  max-width: 300px;
+  margin: 0 auto 30px;
+  border: 1px solid #e5e5e5;
+  background-color: #f4f5f6;
+  padding: 20px;
 }
 
 .versus-sign > p {

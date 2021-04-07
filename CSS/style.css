@@ -152,7 +152,6 @@ input {
 }
 
 /* column 1 */
-
 h3
  {
   font-family: "Roboto Condensed", sans-serif;
@@ -180,19 +179,41 @@ p {
   color: rgb(51, 51, 51);
 }
 
-.link-myturn {
-  text-decoration: none;
-}
-
-.culture-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* .img-turn {
-  position: relative;
+.responsive-square {
   width: 100%;
-} */
+}
+
+.responsive-square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.responsive-square > a > img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fit-start {
+  object-position: left top;
+}
+
+.fit-center {
+  object-position: center top;
+}
+
+.square-image-caption {
+  font-size: 13px;
+  font-height: 20px;
+  padding: 0 6px;
+  background-color: rgba(255,255,255,.9);
+}
 
 /* footer */
 .footer-logo {

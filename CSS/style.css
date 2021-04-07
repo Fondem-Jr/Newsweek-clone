@@ -243,11 +243,17 @@ p {
 }
 
 .sign-up-notice {
-  max-width: 300px;
-  margin: 0 auto 30px;
+  width: 90%;
+  margin: 30px auto;
   border: 1px solid #e5e5e5;
   background-color: #f4f5f6;
   padding: 20px;
+}
+
+.n-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
 }
 
 .versus-sign > p {
@@ -256,6 +262,18 @@ p {
   text-align: center;
   vertical-align: middle;
   line-height: 32px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .sign-up-notice {
+    width: 300px;
+  }
+
+  .insight-entry {
+    width: 330px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
 }
 
 .author-thumbnail {

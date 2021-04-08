@@ -160,9 +160,9 @@ h4 a {
     line-height: 30px;
     padding-right: 30px;
   }
-
-  .newsletter-img {
-    height: 345px;
+}
+.newsletter-img {
+  height: 345px;
 }
 
 .nav-header-mid {
@@ -317,6 +317,11 @@ p {
   font-size: 19px;
 }
 
+.issue-cover {
+  width: 100%;
+  height: auto;
+}
+
 .responsive-66 {
   width: 100%;
 }
@@ -328,43 +333,51 @@ p {
 }
 
 .news-small-img {
-  width: 110px;
-  height: 110px;
+  width: 258px;
+  height: 258px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .news-small-img {
+    width: 110px;
+    height: 110px;
+  }
 }
 
 .subscribe-block {
   height: 345px;
-  }
-  
-  .title-sub {
+}
+
+.title-sub {
   color: #f72210;
   font: bold 16px/16px "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   padding-bottom: 11px;
-  }
-  
-  .subscribe-block .col-4,
-  .subscribe-block .col-8 {
+}
+
+.subscribe-block .col-4,
+.subscribe-block .col-8 {
   background-color: #f4f5f6;
   padding: 24px 20px 20px;
-  }
-  
-  .subscribe-block .free-signup input {
+}
+
+.subscribe-block .free-signup input {
   width: 100%;
   height: 38px;
   line-height: 38px;
-  }
-  
-  .free-signup .form-text {
+}
+
+.free-signup .form-text {
   color: #555;
   font-size: 14px;
   font-family: "Helvetica", sans-serif;
   background-color: white;
   border: 1px solid #e0e1e1;
   text-indent: 9px;
-  }
-  
-  .free-signup .form-submit {
+}
+
+.free-signup .form-submit {
   color: white;
   text-transform: uppercase;
   cursor: pointer;
@@ -373,9 +386,9 @@ p {
   font-family: "Roboto Condensed",sans-serif;
   background-color: #f72310;
   border-radius: 3px;
-  }
-  
-  .subscribe-block .subscribe-button {
+}
+
+.subscribe-block .subscribe-button {
   position: relative;
   font: bold 18px/18px "Roboto Condensed", sans-serif;
   cursor: pointer;
@@ -385,25 +398,31 @@ p {
   display: inline-block;
   padding: 10px 10px 10px 12px;
   border-radius: 3px;
-  }
-  
-  .img-overlap img {
+}
+
+.img-overlap img {
   position: absolute;
-  }
-  
-  .img-overlap2 {
+}
+
+.img-overlap2 {
   top: 38px;
   left: 100px;
-  }
-  
-  .subscribe-header {
+}
+
+.subscribe-header {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
   color: rgb(0, 0, 0);
-  }
-  
+}
+
+/* Subscription section */
+.subscription-section {
+  border-top: 2px #f4f5f6 solid;
+  padding: 50px 60px;
+  margin: 0;
+}
 
 /* footer */
 .footer-logo {

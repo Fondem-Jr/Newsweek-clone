@@ -337,12 +337,16 @@ p {
   height: 258px;
 }
 
-
 @media screen and (min-width: 768px) {
   .news-small-img {
     width: 110px;
     height: 110px;
   }
+
+  .sticky-container {
+  position: sticky;
+  top: 0;
+}
 }
 
 .subscribe-block {

@@ -38,6 +38,11 @@ input {
   text-decoration: none;
 }
 
+.hover-underline:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
 .normal-list {
   list-style: none;
 }
@@ -317,6 +322,11 @@ p {
   content: "";
   display: block;
   padding-bottom: 66.7%;
+}
+
+.news-small-img {
+  width: 110px;
+  height: 110px;
 }
 
 /* footer */

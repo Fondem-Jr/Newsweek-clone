@@ -58,6 +58,12 @@ a {
   text-decoration: none;
 }
 
+.main-header {
+  font-weight: 700;
+  line-height: 16px;
+  color: rgba(3, 3, 3, 0.4);
+}
+
 .main-header:hover {
   color: rgba(3, 3, 3, 0.4);
 }
@@ -185,11 +191,6 @@ h4 a {
 }
 
 /* column 1 */
-.main-header {
-  font-weight: 700;
-  line-height: 16px;
-  color: rgba(3, 3, 3, 0.4);
-}
 
 p {
   font-family: Arial, Helvetica, sans-serif;

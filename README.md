@@ -6,7 +6,7 @@ Microverse HTML and CSS Week 3 Project
 >By applying best practices related to repositories and front-end code. We created interfaces (UIs) that will adapt to different devices (screen size).
 
 
-![ScreenShot](assets/screenshotm3.png)
+![ScreenShot](assets/screenshotmil3.png)
 
 ## Built With
 

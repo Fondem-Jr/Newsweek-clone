@@ -6,7 +6,7 @@ Microverse HTML and CSS Week 3 Project
 >By applying best practices related to repositories and front-end code. We created interfaces (UIs) that will adapt to different devices (screen size).
 
 
-![ScreenShot](assets/screenshot.png)
+![ScreenShot](assets/screenshotm3.png)
 
 ## Built With
 
@@ -22,7 +22,7 @@ Microverse HTML and CSS Week 3 Project
 
 ## Live Demo
 
-- Project [Live Demo Link](https://fondem-jr.github.io/TNW-Clone/Newsweek-clone/)
+- Project [Live Demo Link](https://fondem-jr.github.io/Newsweek-clone/)
 
 ## Getting Started
 

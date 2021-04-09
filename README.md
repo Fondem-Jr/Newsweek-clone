@@ -39,7 +39,11 @@ Microverse HTML and CSS Week 3 Project
 #### Setup
 
 On GitHub bash
-    _git clone https://github.com/Fondem-Jr/Newsweek-clone.git (fetch milestone-X branch, where X is 1, 2 or 3)
+   > git clone https://github.com/Fondem-Jr/Newsweek-clone.git
+   To download the featue branches run
+   > git fetch origin milestone-X:milestone-X
+   > git checkout milestone-X
+   where X is 1, 2 or 3
 
 #### Usage
 

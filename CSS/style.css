@@ -97,6 +97,11 @@ h4 a {
   padding: 8px 15px 9px 15px;
 }
 
+.sticky-container {
+  position: sticky;
+  top: 0;
+}
+
 /* Header */
 .nav-header-top {
   background-color: #f72210;

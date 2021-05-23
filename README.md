@@ -5,7 +5,6 @@ Microverse HTML and CSS Week 3 Project
 >In this project we simulated the [Newsweek page](https://web.archive.org/web/20210120125445/https://www.newsweek.com/) by cloning and building version of the page to respond to different screen sizes and using the Bootstrap framework.
 >By applying best practices related to repositories and front-end code. We created interfaces (UIs) that will adapt to different devices (screen size).
 
-
 ![ScreenShot](assets/screenshotmil3.png)
 
 ## Built With

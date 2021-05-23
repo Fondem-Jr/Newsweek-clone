@@ -5,8 +5,7 @@ Microverse HTML and CSS Week 3 Project
 >In this project we simulated the [Newsweek page](https://web.archive.org/web/20210120125445/https://www.newsweek.com/) by cloning and building version of the page to respond to different screen sizes and using the Bootstrap framework.
 >By applying best practices related to repositories and front-end code. We created interfaces (UIs) that will adapt to different devices (screen size).
 
-
-![ScreenShot](assets/screenshotm2.png)
+![ScreenShot](assets/screenshotmil3.png)
 
 ## Built With
 
@@ -39,7 +38,15 @@ Microverse HTML and CSS Week 3 Project
 #### Setup
 
 On GitHub bash
-    _git clone https://github.com/Fondem-Jr/Newsweek-clone.git (fetch milestone-X branch, where X is 1, 2 or 3)
+   > git clone https://github.com/Fondem-Jr/Newsweek-clone.git
+
+To download the featue branches run
+
+   > git fetch origin milestone-X:milestone-X
+
+   > git checkout milestone-X
+
+where X is 1, 2 or 3
 
 #### Usage
 

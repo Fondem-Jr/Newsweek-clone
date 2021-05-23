@@ -1,0 +1,184 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+/* ------------General styles--------- */
+html {
+  box-sizing: border-box;
+}
+
+/* General Classes */
+header {
+  margin-bottom: 300px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.ps-20 {
+  padding: 0 1.3vw;
+}
+
+.pl-30 {
+  padding-left: 30px;
+}
+
+.py-15 {
+  padding: 15px 0;
+}
+
+input {
+  display: inline;
+}
+
+.titlecase {
+  text-transform: capitalize;
+}
+
+.normal-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.normal-list {
+  list-style: none;
+}
+
+.form-inline {
+  width: 60px;
+}
+
+.form-control {
+  border: 0;
+}
+
+.normal-list a:hover {
+  color: red;
+}
+
+.borderlist {
+  border-right: 1px solid #d9d9d9;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.borderlist-last {
+  border: none;
+}
+
+/* Header */
+.nav-header-top {
+  background-color: #f72210;
+}
+
+.nav-date {
+  font: 16px/34px "Roboto Condensed", sans-serif;
+  color: white;
+  padding-left: 30px;
+}
+
+.nav-header-logo {
+  padding: 15px 15px;
+  width: 132px;
+  height: 50px;
+  fill: white;
+}
+
+.nav-buttons {
+  font-size: 15px;
+  line-height: 20px;
+  padding-right: 15px;
+}
+
+#subscribe-button {
+  background-color: #ffe400;
+  padding: 0;
+}
+
+@media only screen and (min-width: 992px) {
+  .nav-header-top {
+    background-color: #f72210;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  .nav-header-logo {
+    width: 396px;
+    height: 60px;
+    fill: white;
+  }
+
+  .nav-buttons {
+    font-size: 18px;
+    line-height: 30px;
+    padding-right: 30px;
+  }
+}
+
+.nav-header-mid {
+  font: 19px/19px "Roboto Condensed", sans-serif;
+  padding: 20px 0;
+  border-bottom: 2px #f4f5f7 solid;
+}
+
+.search-button {
+  margin-left: -10px;
+}
+
+.search-icon {
+  background: url(https://web.archive.org/web/20210120125445im_/https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
+  width: 20px;
+  height: 20px;
+  display: inline;
+  padding-top: 0.7em;
+  padding-left: 0.5em;
+}
+
+.nav-header-bottom {
+  font-size: 16px;
+  border-bottom: 2px #f4f5f7 solid;
+  color: #807f84;
+}
+
+#nav-header-bottom-brand {
+  color: black;
+}
+
+.bi-list {
+  font-size: 30px;
+}
+
+/* footer */
+.footer-logo {
+  fill: #f72210;
+}
+
+.small-font {
+  font-size: 12px;
+}
+
+.footer-icon {
+  font-size: 24px;
+  text-decoration: none;
+  color: #666;
+}
+
+.footer-icon:hover {
+  color: #4267b2;
+}
+
+.footer-icon-hover1:hover {
+  color: #00acee;
+}
+
+.footer-icon-hover2:hover {
+  color: #8a3ab9;
+}
+
+.footer-link {
+  font-size: 0.8em;
+  padding-right: 0.5rem;
+  border-right: 1px solid #d9d9d9;
+}
+
+.footer-link:hover {
+  color: black;
+}
